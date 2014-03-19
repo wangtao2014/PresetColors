@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28DFD94518D93DFF002940EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DFD94418D93DFF002940EB /* Foundation.framework */; };
+		28DFD94718D93DFF002940EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DFD94618D93DFF002940EB /* CoreGraphics.framework */; };
+		28DFD94918D93DFF002940EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DFD94818D93DFF002940EB /* UIKit.framework */; };
+		28DFD94F18D93DFF002940EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28DFD94D18D93DFF002940EB /* InfoPlist.strings */; };
+		28DFD95118D93DFF002940EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DFD95018D93DFF002940EB /* main.m */; };
+		28DFD95518D93DFF002940EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DFD95418D93DFF002940EB /* AppDelegate.m */; };
+		28DFD95718D93DFF002940EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DFD95618D93DFF002940EB /* Images.xcassets */; };
+		28DFD95E18D93E00002940EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DFD95D18D93E00002940EB /* XCTest.framework */; };
+		28DFD95F18D93E00002940EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DFD94418D93DFF002940EB /* Foundation.framework */; };
+		28DFD96018D93E00002940EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DFD94818D93DFF002940EB /* UIKit.framework */; };
+		28DFD96818D93E00002940EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28DFD96618D93E00002940EB /* InfoPlist.strings */; };
+		28DFD96A18D93E00002940EB /* PresetColorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DFD96918D93E00002940EB /* PresetColorsTests.m */; };
+		28DFD97518D93E25002940EB /* ColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DFD97418D93E25002940EB /* ColorsViewController.m */; };
+		28DFD97818D947D9002940EB /* FontsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DFD97718D947D9002940EB /* FontsViewController.m */; };
+		28DFD97B18D97A7F002940EB /* FontSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DFD97A18D97A7F002940EB /* FontSizeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28DFD96118D93E00002940EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28DFD93918D93DFF002940EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28DFD94018D93DFF002940EB;
+			remoteInfo = PresetColors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28DFD94118D93DFF002940EB /* PresetColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresetColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DFD94418D93DFF002940EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28DFD94618D93DFF002940EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28DFD94818D93DFF002940EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28DFD94C18D93DFF002940EB /* PresetColors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PresetColors-Info.plist"; sourceTree = "<group>"; };
+		28DFD94E18D93DFF002940EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28DFD95018D93DFF002940EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28DFD95218D93DFF002940EB /* PresetColors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PresetColors-Prefix.pch"; sourceTree = "<group>"; };
+		28DFD95318D93DFF002940EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28DFD95418D93DFF002940EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28DFD95618D93DFF002940EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28DFD95C18D93E00002940EB /* PresetColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresetColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DFD95D18D93E00002940EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		28DFD96518D93E00002940EB /* PresetColorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PresetColorsTests-Info.plist"; sourceTree = "<group>"; };
+		28DFD96718D93E00002940EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28DFD96918D93E00002940EB /* PresetColorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresetColorsTests.m; sourceTree = "<group>"; };
+		28DFD97318D93E25002940EB /* ColorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorsViewController.h; sourceTree = "<group>"; };
+		28DFD97418D93E25002940EB /* ColorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorsViewController.m; sourceTree = "<group>"; };
+		28DFD97618D947D9002940EB /* FontsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontsViewController.h; sourceTree = "<group>"; };
+		28DFD97718D947D9002940EB /* FontsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontsViewController.m; sourceTree = "<group>"; };
+		28DFD97918D97A7F002940EB /* FontSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSizeViewController.h; sourceTree = "<group>"; };
+		28DFD97A18D97A7F002940EB /* FontSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSizeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28DFD93E18D93DFF002940EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DFD94718D93DFF002940EB /* CoreGraphics.framework in Frameworks */,
+				28DFD94918D93DFF002940EB /* UIKit.framework in Frameworks */,
+				28DFD94518D93DFF002940EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DFD95918D93E00002940EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DFD95E18D93E00002940EB /* XCTest.framework in Frameworks */,
+				28DFD96018D93E00002940EB /* UIKit.framework in Frameworks */,
+				28DFD95F18D93E00002940EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28DFD93818D93DFF002940EB = {
+			isa = PBXGroup;
+			children = (
+				28DFD94A18D93DFF002940EB /* PresetColors */,
+				28DFD96318D93E00002940EB /* PresetColorsTests */,
+				28DFD94318D93DFF002940EB /* Frameworks */,
+				28DFD94218D93DFF002940EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28DFD94218D93DFF002940EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28DFD94118D93DFF002940EB /* PresetColors.app */,
+				28DFD95C18D93E00002940EB /* PresetColorsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28DFD94318D93DFF002940EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28DFD94418D93DFF002940EB /* Foundation.framework */,
+				28DFD94618D93DFF002940EB /* CoreGraphics.framework */,
+				28DFD94818D93DFF002940EB /* UIKit.framework */,
+				28DFD95D18D93E00002940EB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28DFD94A18D93DFF002940EB /* PresetColors */ = {
+			isa = PBXGroup;
+			children = (
+				28DFD95318D93DFF002940EB /* AppDelegate.h */,
+				28DFD95418D93DFF002940EB /* AppDelegate.m */,
+				28DFD95618D93DFF002940EB /* Images.xcassets */,
+				28DFD94B18D93DFF002940EB /* Supporting Files */,
+				28DFD97318D93E25002940EB /* ColorsViewController.h */,
+				28DFD97418D93E25002940EB /* ColorsViewController.m */,
+				28DFD97618D947D9002940EB /* FontsViewController.h */,
+				28DFD97718D947D9002940EB /* FontsViewController.m */,
+				28DFD97918D97A7F002940EB /* FontSizeViewController.h */,
+				28DFD97A18D97A7F002940EB /* FontSizeViewController.m */,
+			);
+			path = PresetColors;
+			sourceTree = "<group>";
+		};
+		28DFD94B18D93DFF002940EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28DFD94C18D93DFF002940EB /* PresetColors-Info.plist */,
+				28DFD94D18D93DFF002940EB /* InfoPlist.strings */,
+				28DFD95018D93DFF002940EB /* main.m */,
+				28DFD95218D93DFF002940EB /* PresetColors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28DFD96318D93E00002940EB /* PresetColorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				28DFD96918D93E00002940EB /* PresetColorsTests.m */,
+				28DFD96418D93E00002940EB /* Supporting Files */,
+			);
+			path = PresetColorsTests;
+			sourceTree = "<group>";
+		};
+		28DFD96418D93E00002940EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28DFD96518D93E00002940EB /* PresetColorsTests-Info.plist */,
+				28DFD96618D93E00002940EB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28DFD94018D93DFF002940EB /* PresetColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DFD96D18D93E00002940EB /* Build configuration list for PBXNativeTarget "PresetColors" */;
+			buildPhases = (
+				28DFD93D18D93DFF002940EB /* Sources */,
+				28DFD93E18D93DFF002940EB /* Frameworks */,
+				28DFD93F18D93DFF002940EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PresetColors;
+			productName = PresetColors;
+			productReference = 28DFD94118D93DFF002940EB /* PresetColors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28DFD95B18D93E00002940EB /* PresetColorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DFD97018D93E00002940EB /* Build configuration list for PBXNativeTarget "PresetColorsTests" */;
+			buildPhases = (
+				28DFD95818D93E00002940EB /* Sources */,
+				28DFD95918D93E00002940EB /* Frameworks */,
+				28DFD95A18D93E00002940EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28DFD96218D93E00002940EB /* PBXTargetDependency */,
+			);
+			name = PresetColorsTests;
+			productName = PresetColorsTests;
+			productReference = 28DFD95C18D93E00002940EB /* PresetColorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28DFD93918D93DFF002940EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wangtao;
+				TargetAttributes = {
+					28DFD95B18D93E00002940EB = {
+						TestTargetID = 28DFD94018D93DFF002940EB;
+					};
+				};
+			};
+			buildConfigurationList = 28DFD93C18D93DFF002940EB /* Build configuration list for PBXProject "PresetColors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28DFD93818D93DFF002940EB;
+			productRefGroup = 28DFD94218D93DFF002940EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28DFD94018D93DFF002940EB /* PresetColors */,
+				28DFD95B18D93E00002940EB /* PresetColorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28DFD93F18D93DFF002940EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DFD94F18D93DFF002940EB /* InfoPlist.strings in Resources */,
+				28DFD95718D93DFF002940EB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DFD95A18D93E00002940EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DFD96818D93E00002940EB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28DFD93D18D93DFF002940EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DFD95518D93DFF002940EB /* AppDelegate.m in Sources */,
+				28DFD97818D947D9002940EB /* FontsViewController.m in Sources */,
+				28DFD97518D93E25002940EB /* ColorsViewController.m in Sources */,
+				28DFD95118D93DFF002940EB /* main.m in Sources */,
+				28DFD97B18D97A7F002940EB /* FontSizeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DFD95818D93E00002940EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DFD96A18D93E00002940EB /* PresetColorsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28DFD96218D93E00002940EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28DFD94018D93DFF002940EB /* PresetColors */;
+			targetProxy = 28DFD96118D93E00002940EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28DFD94D18D93DFF002940EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28DFD94E18D93DFF002940EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28DFD96618D93E00002940EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28DFD96718D93E00002940EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28DFD96B18D93E00002940EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28DFD96C18D93E00002940EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28DFD96E18D93E00002940EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PresetColors/PresetColors-Prefix.pch";
+				INFOPLIST_FILE = "PresetColors/PresetColors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28DFD96F18D93E00002940EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PresetColors/PresetColors-Prefix.pch";
+				INFOPLIST_FILE = "PresetColors/PresetColors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		28DFD97118D93E00002940EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PresetColors.app/PresetColors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PresetColors/PresetColors-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PresetColorsTests/PresetColorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		28DFD97218D93E00002940EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PresetColors.app/PresetColors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PresetColors/PresetColors-Prefix.pch";
+				INFOPLIST_FILE = "PresetColorsTests/PresetColorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28DFD93C18D93DFF002940EB /* Build configuration list for PBXProject "PresetColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DFD96B18D93E00002940EB /* Debug */,
+				28DFD96C18D93E00002940EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DFD96D18D93E00002940EB /* Build configuration list for PBXNativeTarget "PresetColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DFD96E18D93E00002940EB /* Debug */,
+				28DFD96F18D93E00002940EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DFD97018D93E00002940EB /* Build configuration list for PBXNativeTarget "PresetColorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DFD97118D93E00002940EB /* Debug */,
+				28DFD97218D93E00002940EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28DFD93918D93DFF002940EB /* Project object */;
+}
